@@ -1,28 +1,41 @@
-div#hutreihe {
+.gruppenbild {
     background: #F2EAB1 url("/img/gruppenfoto.jpg") no-repeat right top;
-    height: 19em;
     background-size: cover;
-    padding: 1em;
+    margin: 0px;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+div.title {
+    margin-top: 0em;
+    margin-bottom: 4em;
+    h1 {      
+        text-shadow: 1px 1px 1px @panel-color;
+        color: @title-color;
+        font-size: 7em;
+        text-align: center;
+        font-family: Chancery;
+        line-height: 0.8;
+        small {
+            color: @title-color;
+        }
+     }
 }
 .hat-row {
-    background-color: #999999;
-    div.hut-col {
-        min-width: 240px;
-        h2.char-name {
+    .flex-container;
+    .larp-char {
+        .shadowed;
+        border-radius: 1em;
+        padding: 0.5em;
+        margin: 1em;
+        max-width: 10em;
+        background-color: @panel-color;
+        .char-img {
+            max-width: 9em;
+            background-color: @img-background;
+            border-radius: 10em;
+        }
+        .char-name {
             font-size: 1.5em;
         }
     }
-}
-
-
-.row-centered {
-    text-align:center;
-}
-.col-centered {
-    display:inline-block;
-    float:none;
-    /* reset the text-align */
-    text-align:left;
-    /* inline-block space fix */
-    margin-right:-4px;
 }

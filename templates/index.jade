@@ -3,17 +3,18 @@ extends ./layout.jade
 
 block header
     include ./lib.jade
-    .container-fluid
-        include ./navbar.jade
-        #hutreihe.row
-        .row
-            .col-md-2.col-sm-0
-            .col-md-8.col-sm-12
-                .row.row-centered.hat-row
-                    each char in characters
-                        .col-md-3.col-xs-12.col-sm-6.hut-col.col-centered
-                            img.img-circle.img-responsive.char-img(src=getHut(char), alt="")
-                            h2.text-center.char-name=char.metadata.name
+    .gruppenbild
+        .container-fluid
+            include ./navbar.jade
+        .title
+            h1 Die Bewahrer 
+                br
+                des Gleichgewichts
+        .hat-row
+            each char in characters
+                .larp-char
+                    img.char-img(src=getHut(char), alt="")
+                    h2.text-center.char-name=char.metadata.name
 
 
 

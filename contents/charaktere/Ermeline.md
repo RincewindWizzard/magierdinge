@@ -1,5 +1,5 @@
 ---
-name: Ermeline Adelrune Wollknoll
+name: Ermeline Wollknoll
 spieler: Nadja
 ----
 
