@@ -1,0 +1,13 @@
+- var getHut = function(chare) {
+-   var path = chare.filepath.relative;
+-   return path.replace("charaktere", "img/huete").replace("md", "jpg")
+- }
+- var characters = Object.keys(contents.charaktere).map(function(key){ return contents.charaktere[key] });
+- var sliced = function(list, maxlen) {
+-   var slices = [];
+-   for(var i = 0; i < list.length; i += maxlen) {
+-       var slice = list.slice(i, i + maxlen)
+-       slices.push(slice)
+-   }
+-   return slices;
+- }

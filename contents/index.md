@@ -1,10 +1,10 @@
 ---
-title: Winterschmied
-template: main.jade
+title: Magierdinge
+template: index.jade
 ----
 
-![Winterschmied Logo](/img/Wintersmith.svg)
+# Magierdinge.de
+Wir sind ein lockere Gruppe von Freunden, die gerne zusammen auf Larps fahren, um dort die Bewahrer des Gleichgewichtes, eine Magiergruppe, darzustellen.
+Magierdinge bezeichnet all das seltsame, was Magier machen und nur sie selbst verstehen können.
 
-Dies ist ein leeres Wintersmith setup.
-Guck mal [hier](./about.html)
-
+Diese Webseite dient dazu, dass andere Gruppen uns nach einer Con wiederfinden und kontaktieren können.
