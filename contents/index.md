@@ -31,7 +31,7 @@ Wir sind alle aus dem Kieler Umland und fahren Hauptsächlich auf Cons in Schles
 Kommende Veranstaltungen:
 * Conquest 2016
 
-Ist deine Con nicht mir dabei? Schreib uns an. Es juckt uns in den Fingern noch mehr mit zu nehmen.
+Ist deine Con nicht mit dabei? Schreib uns an. Es juckt uns in den Fingern noch mehr mit zu nehmen.
 
 # Mitmachen
 Du bist ein absoluter Frischling und hast von diesem seltsamen Hobby gehört, wo Leute mit Schaumstoffschwertern gegen Orks kämpfen, aber keine Ahnung wie man da mitmachen kann?
@@ -42,7 +42,7 @@ Bei uns erwartet dich [OT](#in-time-out-time) eine gut durch organisierte Gruppe
 
 Wir werden dich bei deiner Charaktererschaffung und beim Planen der Gewandung helfen und bei Nadja bekommst du einen (Spitz-)Hut nach eigenen Vorstellungen. Hier ist kein Entwurf zu kurios, denn Hüte machen Magier.
 
-[IT](#in-time-out-time) sind wir ein Haufen Besserwisser. Bei uns kannst du also lernen immer Recht zu haben und den Ritt auf der Rasierklinge zu treiben. Neulinge werden bei uns als Lehrlinge eingearbeitet, je nach Gruppenaufstellung, kannst du bei uns als [Heiler](#lindhorst), Alchemist, [Wollwerker](#eywa-wollwerkerin), [Ritualmagier](#adar-pechsteyn) oder [Hutschützer](#konrad-altishofen) werden. 
+[IT](#in-time-out-time) sind wir ein Haufen Besserwisser. Bei uns kannst du also lernen immer Recht zu haben und den Ritt auf der Rasierklinge zu treiben. Neulinge werden bei uns als Lehrlinge eingearbeitet, je nach Gruppenaufstellung, kannst du bei uns [Heiler](#lindhorst), Alchemist, [Wollwerker](#eywa-wollwerkerin), [Ritualmagier](#adar-pechsteyn) oder [Hutschützer](#konrad-altishofen) werden. 
 
 Als Lehrling wird es deine Aufgabe sein, den ganzen nutzlosen Mist von diesem Besserwisser überall hin zu tragen, damit er sich dort wichtig machen kann. Du kannst uns über die Schulter schauen und wir werden dafür sorgen, dass du überall dort eingebunden wirst, wo du es willst.
 
