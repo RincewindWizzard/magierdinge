@@ -13,8 +13,9 @@ block header
         .hat-row
             each char in characters
                 .larp-char
-                    img.char-img(src=getHut(char), alt="")
-                    h2.text-center.char-name=char.metadata.name
+                    a(href="#" + char.metadata.name)
+                        img.char-img(src=getHut(char), alt=char.metadata.name)
+                        h2.text-center.char-name=char.metadata.name
 
 
 
@@ -22,5 +23,15 @@ block header
 block main
     .container
         .row
+            .col-md-2
             div.col-md-8
                 != page.html
+                h1 Mitglieder der Bewahrer
+                each char in characters
+                    h2
+                        != char.metadata.name
+                    .char-paragraph
+                        .char-story
+                            != char.html
+                        img.char-portrait(src=getHut(char), alt=char.metadata.name)
+                != contents["impressum.md"].html
