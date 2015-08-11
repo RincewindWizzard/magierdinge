@@ -170,9 +170,9 @@ body main section div.charlist div.char-page div.char-paragraph img.char-portrai
 }
 a.wikilink {
   padding: 0.5em 1em 0.5em 1em;
-  border-radius: 0px 0px 1em 1em;
+  border-radius: 1em 1em 0px 0px;
   position: fixed;
-  top: 0;
+  bottom: 0;
   right: 0;
   background: #c5b679;
   font-size: 1.5em;
@@ -180,7 +180,7 @@ a.wikilink {
 }
 @media (max-width: 600px) {
   a.wikilink {
-    border-radius: 0 0 0 1em;
+    border-radius: 0 1em 0 0;
   }
 }
 @media (min-width: 600px) {
@@ -190,9 +190,9 @@ a.wikilink {
 }
 a.back-to-top {
   padding: 0.5em 1em 0.5em 1em;
-  border-radius: 0px 0px 1em 1em;
+  border-radius: 1em 1em 0px 0px;
   position: fixed;
-  top: 0;
+  bottom: 0;
   left: 0;
   background: #c5b679;
   font-size: 1.5em;
@@ -200,7 +200,7 @@ a.back-to-top {
 }
 @media (max-width: 600px) {
   a.back-to-top {
-    border-radius: 0 0 1em 0;
+    border-radius: 1em 0 0 0;
   }
 }
 @media (min-width: 600px) {
