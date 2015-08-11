@@ -1,9 +1,9 @@
 {
   "locals": {
     "url": "http://localhost:8080",
-    "name": "The Wintersmith's blog",
-    "owner": "Someone",
-    "description": "Ramblings of an immor(t)al demigod"
+    "name": "Magierdinge",
+    "owner": "Ehrlich",
+    "description": "Magier mit Hüten"
   },
   "plugins": [
     "./node_modules/wintersmith-less/plugin.coffee",
@@ -11,9 +11,13 @@
   ],
   "require": {
     "moment": "moment",
+    "slugify": "slugg",
     "_": "underscore",
     "typogr": "typogr"
   },
+  "ignore" : [
+    "style/lib/*"
+  ],
   "jade": {
     "pretty": true
   },
@@ -21,7 +25,6 @@
     "smartLists": true,
     "smartypants": true
   },
-  "ignore": ["style/bootstrap/*"],
   "paginator": {
     "perPage": 3
   }

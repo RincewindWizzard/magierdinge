@@ -4,34 +4,44 @@ extends ./layout.jade
 block header
     include ./lib.jade
     .gruppenbild
-        .container-fluid
-            include ./navbar.jade
-        .title
-            h1 Die Bewahrer 
-                br
-                des Gleichgewichts
-        .hat-row
-            each char in characters
-                .larp-char
-                    a(href="#" + char.metadata.name)
-                        img.char-img(src=getHut(char), alt=char.metadata.name)
-                        h2.text-center.char-name=char.metadata.name
+        div
+            .title
+                a(href="/")
+                    h1 Die Bewahrer <br/> des Gleichgewichts
+            .hat-row
+                each char in characters
+                    .larp-char
+                        a(href="#" + slugify(char.metadata.name))
+                            img.char-img(src=getHut(char), alt=char.metadata.name)
+                            h2.text-center.char-name=char.metadata.name
 
 
 
                     
 block main
-    .container
-        .row
-            .col-md-2
-            div.col-md-8
-                != page.html
-                h1 Mitglieder der Bewahrer
-                each char in characters
-                    h2
+    .einleitung
+       != page.html
+    .charlist
+        h1 Mitglieder der Bewahrer
+        .charlist-flex
+            each char in characters
+                hr
+                .char-page
+                    h2(id=slugify(char.metadata.name))
                         != char.metadata.name
                     .char-paragraph
                         .char-story
                             != char.html
                         img.char-portrait(src=getHut(char), alt=char.metadata.name)
-                != contents["impressum.md"].html
+
+block aside
+    - var tableOfContents = toc(page.markdown).json;
+    each heading in tableOfContents
+        li
+            a(href="#" + slugify(heading.content))
+                != heading.content
+
+block footer
+    .impressum           
+        != contents["impressum.md"].html
+        img.banner(src="/img/Banner.jpg")

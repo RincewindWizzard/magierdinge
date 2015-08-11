@@ -1,0 +1,252 @@
+@font-face {
+  font-family: Chancery;
+  src: url(/fonts/urw-chancery.ttf);
+}
+@font-face {
+  font-family: Old Style;
+  src: url(/fonts/IMFeENrm29P.ttf);
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+.flex-container-center {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+.flex-container-left {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+@media (min-width: 600px) {
+  .flex-container-left {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+}
+.shadowed {
+  -webkit-box-shadow: 0px 0px 13px 4px rgba(179, 178, 151, 0.63);
+  -moz-box-shadow: 0px 0px 13px 4px rgba(179, 178, 151, 0.63);
+  box-shadow: 0px 0px 13px 4px rgba(179, 178, 151, 0.63);
+}
+.navbar {
+  margin-bottom: 0px;
+}
+body {
+  font-family: "Old Style";
+  background-color: #e4ddc0;
+}
+body a {
+  color: black;
+  font-family: "Old Style";
+}
+body a:link {
+  text-decoration: none;
+}
+body a:visited {
+  text-decoration: none;
+}
+body a:hover {
+  text-decoration: none;
+}
+body a:active {
+  text-decoration: none;
+}
+body main {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-stretch;
+  max-width: 1000px;
+  margin: auto;
+}
+body main a {
+  color: #1144C0;
+}
+body main p,
+body main ul {
+  font-size: 1.2em;
+}
+body main ul {
+  list-style-type: square;
+}
+body main > * {
+  margin: 0.5em;
+}
+body main aside {
+  background-color: #B9F0B9;
+}
+body main section {
+  width: 100%;
+}
+body main section h1 {
+  font-family: "Old Style";
+  margin-left: 0.5em;
+  margin-top: 2em;
+}
+@media (min-width: 600px) {
+  body main section p {
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+}
+body main section div.charlist {
+  margin-top: 5em;
+  width: 100%;
+  /* Glyph, by Harry Roberts */
+}
+body main section div.charlist hr {
+  padding: 0;
+  border: none;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
+}
+body main section div.charlist hr:after {
+  content: "⼈";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: #e4ddc0;
+}
+body main section div.charlist div.char-page {
+  margin-top: 2em;
+  padding: 1em;
+}
+body main section div.charlist div.char-page h2 {
+  text-align: right;
+  font-size: 4em;
+  font-family: "Chancery";
+}
+@media (max-width: 600px) {
+  body main section div.charlist div.char-page h2 {
+    text-align: center;
+  }
+}
+body main section div.charlist div.char-page div.char-paragraph {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+@media (min-width: 600px) {
+  body main section div.charlist div.char-page div.char-paragraph {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+}
+body main section div.charlist div.char-page div.char-paragraph div.char-story {
+  font-family: "Old Style";
+}
+@media (max-width: 600px) {
+  body main section div.charlist div.char-page div.char-paragraph div.char-story {
+    order: 1;
+  }
+}
+body main section div.charlist div.char-page div.char-paragraph img.char-portrait {
+  width: 15em;
+  height: 15em;
+  background-color: #dad898;
+  border-radius: 2em;
+  padding: 1em;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+@media (max-width: 600px) {
+  body main section div.charlist div.char-page div.char-paragraph img.char-portrait {
+    order: 0;
+  }
+}
+.gruppenbild {
+  background: #f2eab1 url("/img/gruppenfoto.jpg") no-repeat right top;
+  background-size: cover;
+  background-position: left top;
+  margin: 0px;
+  padding-top: 0px;
+  padding-bottom: 1em;
+}
+.gruppenbild div.title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.gruppenbild div.title h1 {
+  text-shadow: 1px 1px 1px rgba(179, 178, 151, 0.63);
+  color: #ffffff;
+  font-size: 50px;
+  text-align: center;
+  font-family: Chancery;
+  line-height: 0.8;
+  margin-top: 0px;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+@media (min-width: 600px) {
+  .gruppenbild div.title h1 {
+    font-size: 100px;
+    text-align: left;
+  }
+}
+div.overlay {
+  background-color: rgba(242, 243, 219, 0.58);
+  box-shadow: 0px 0px 10px 20px rgba(242, 243, 219, 0.58);
+}
+.hat-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+.hat-row .larp-char {
+  -webkit-box-shadow: 0px 0px 13px 4px rgba(179, 178, 151, 0.63);
+  -moz-box-shadow: 0px 0px 13px 4px rgba(179, 178, 151, 0.63);
+  box-shadow: 0px 0px 13px 4px rgba(179, 178, 151, 0.63);
+  border-radius: 1em;
+  padding: 0.5em;
+  margin: 1em;
+  margin-bottom: 0px;
+  max-width: 10em;
+  background-color: rgba(179, 178, 151, 0.63);
+}
+.hat-row .larp-char .char-img {
+  max-width: 9em;
+  background-color: #dad898;
+  border-radius: 10em;
+}
+.hat-row .larp-char .char-img:hover {
+  max-width: 9.3em;
+  margin-top: -0.3em;
+}
+.hat-row .larp-char .char-name {
+  font-size: 1.5em;
+}
+footer {
+  text-align: center;
+  font-size: 1.5em;
+  padding: 0em 0em 5em 0em;
+}
+footer div.impressum {
+  margin: auto;
+  max-width: 700px;
+}
+@media (min-width: 600px) {
+  footer img.banner {
+    width: 20%;
+  }
+}
+@media (max-width: 600px) {
+  footer img.banner {
+    width: 50%;
+  }
+}

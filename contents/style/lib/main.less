@@ -1,0 +1,126 @@
+body {
+    font-family: "Old Style";
+    background-color: @char-bg-color;
+    a {
+        color: black;
+        font-family: "Old Style";
+        //text-transform: uppercase;
+        &:link {
+            text-decoration: none;
+        }
+
+        &:visited {
+            text-decoration: none;
+        }
+
+        &:hover {
+            text-decoration: none;
+        }
+
+        &:active {
+            text-decoration: none;
+        }
+    }
+
+    main {
+        a {
+            //letter-spacing: 2px;
+            //font-family:  serif;
+            //font-style:italic;
+            color: #1144C0;
+        }
+        display: flex;
+        flex-direction: row;
+        align-items: flex-stretch;
+        max-width: 1000px;
+        margin: auto;
+
+        p, ul {
+            font-size: 1.2em;
+        }
+        ul {
+            list-style-type: square;
+        }
+
+        & > * {
+            margin: 0.5em;
+        }
+        
+        aside {
+            background-color: #B9F0B9;
+        }
+        section {
+            width: 100%;
+            h1 {
+                font-family: "Old Style";
+                margin-left: 0.5em;
+                margin-top: 2em;
+            }
+            @media (min-width: 600px) {
+                p {
+                    margin-left: 2em;
+                    margin-right: 2em;
+                }
+            }
+
+            div.charlist {       
+                margin-top: 5em;
+                width: 100%;
+
+                /* Glyph, by Harry Roberts */ 
+                hr { 
+                    padding: 0; 
+                    border: none; 
+                    border-top: medium double #333; 
+                    color: #333; 
+                    text-align: center; 
+                } 
+                hr:after { 
+                    content: "⼈"; 
+                    display: inline-block; 
+                    position: relative; 
+                    top: -0.7em; 
+                    font-size: 1.5em; 
+                    padding: 0 0.25em; 
+                    background: @char-bg-color; 
+                }
+                div.char-page {
+                    margin-top: 2em;
+                    padding: 1em;
+                    h2 {
+                        text-align: right;
+                        @media (max-width: 600px) {
+                            text-align: center;
+                        }
+
+                        font-size: 4em;
+                        font-family: "Chancery";
+                    }
+                    div.char-paragraph {
+                        .flex-container-left;    
+                        div.char-story {
+                            font-family: "Old Style";
+                            //font-size: 1.5em;
+                            @media (max-width: 600px) {
+                                order: 1;
+                            }
+                        }
+                        img.char-portrait {
+                            width: 15em;
+                            height: 15em;
+                            background-color: @img-background;
+                            border-radius: 2em;
+                            padding: 1em;
+                            margin-left: 1em;
+                            margin-bottom: 1em;
+                            @media (max-width: 600px) {
+                                order: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
