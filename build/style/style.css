@@ -168,12 +168,52 @@ body main section div.charlist div.char-page div.char-paragraph img.char-portrai
     order: 0;
   }
 }
+a.wikilink {
+  padding: 0.5em 1em 0.5em 1em;
+  border-radius: 0px 0px 1em 1em;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: #c5b679;
+  font-size: 1.5em;
+  font-family: "Chancery";
+}
+@media (max-width: 600px) {
+  a.wikilink {
+    border-radius: 0 0 0 1em;
+  }
+}
+@media (min-width: 600px) {
+  a.wikilink {
+    margin-right: 5em;
+  }
+}
+a.back-to-top {
+  padding: 0.5em 1em 0.5em 1em;
+  border-radius: 0px 0px 1em 1em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #c5b679;
+  font-size: 1.5em;
+  font-family: "Chancery";
+}
+@media (max-width: 600px) {
+  a.back-to-top {
+    border-radius: 0 0 1em 0;
+  }
+}
+@media (min-width: 600px) {
+  a.back-to-top {
+    margin-left: 5em;
+  }
+}
 .gruppenbild {
+  padding-top: 4em;
   background: #f2eab1 url("/img/gruppenfoto.jpg") no-repeat right top;
   background-size: cover;
   background-position: left top;
   margin: 0px;
-  padding-top: 0px;
   padding-bottom: 1em;
 }
 .gruppenbild div.title {
