@@ -12,7 +12,7 @@ Du bist warscheinlich hier weil du uns gesehen oder von uns gehört hast. Wenn d
 # Was ist Larp?
 Live Action Role Playing (LARP) oder Live-Rollenspiel bezeichnet ein Rollenspiel, bei dem die Spieler ihre Spielfigur auch physisch selbst darstellen. Die Teilnehmenden können im Rahmen einer Rolle, die die eigene Figur und ihre Eigenschaften und Möglichkeiten beschreibt, frei improvisieren. Die Spielfigur wird Charakter genannt. Soweit möglich, finden Liverollenspielveranstaltungen an Spielorten statt, deren Ambiente dem Szenario der Spielhandlung entspricht, und die Charaktere werden mit einer entsprechenden Gewandung kostümiert.
 
-Wir spielen grundsätzlich nur nach [DKWDDK](http://www.larpwiki.de/Regeln/DKWDDK)-Regelwerk. Allerdings gehen wir auch auf Veranstaltungen, die andere Regelwerke spielen. Da wir aber alle Low-Power Charaktere spielen, also keine allmächtigen Großmeister, hat es dort noch nie zu Problemen geführt. Wichtig ist es, im Voraus über die Veranstaltung zu informieren, welche Einschränkungen sich ergeben.
+Wir spielen grundsätzlich nur nach [DKWDDK](http://www.larpwiki.de/Regeln/DKWDDK)-Regelwerk. Allerdings gehen wir auch auf Veranstaltungen, die andere Regelwerke spielen. Da wir aber alle Low-Power Charaktere spielen, also keine allmächtigen Großmeister, hat es dort noch nie zu Problemen geführt. Wichtig ist es, sich im Voraus über die Veranstaltung zu informieren, welche Einschränkungen sich ergeben.
 
 # Magie, das gibts doch gar nicht?
 Natürlich gibt es im echten Leben keine Magier und Zauberer. Und wir behaupten auch nicht, dass wir welche wären. Wir tun einfach innerhalb eines gespielten Fantasy Szenarios so, als ob wir dazu in der Lage wären.
